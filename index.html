@@ -73,7 +73,7 @@
       #div3{
 
        font-size: 40px;
-       padding-left: 50px;
+       padding-left: 10px;
        color: red;
       }
       #div4{
@@ -81,6 +81,7 @@
          font-size: 40px;
          padding-left: 50px;
          color: red;
+         padding-right: 10px;
         }
         #div5{
 
@@ -95,6 +96,32 @@
        color: red;
        }
 
+       .box{
+        box-shadow: 10px 10px 40px gray;
+        padding-top:5%
+        padding-bottom: 100px;
+        margin-left:50px ;
+        margin-right:50px ;
+        border-radius:10px;
+        padding-right:10px;
+        padding-left:10px;
+        border:2px solid black;
+        
+    
+       }
+
+       #h3{
+        padding-left:610px;
+        color: red;
+        padding-top: 50px;
+       }
+
+       .ex{
+        margin-top:  1000px;
+       }
+
+       
+
  </style>
 
 <body>
@@ -105,12 +132,15 @@
 
              <p class="p">It’s important to have a script that sounds like what you would say in a normal conversation. The donor shouldn’t feel like you are delivering a speech or monologue</p>
 
-             <a class="button" href="">Donate Now</a>
+
+             <div>
+                <a class="button" href="">Donate Now</a>
+             </div>
 
 
             </div>
         
-    </section>
+   
 
     <section>
        
@@ -126,7 +156,7 @@
                 <div id="div2">
                     100tk
                 </div>
-                <div id="div3">
+                <div id="div3" class="box">
                     200tk
                 </div>
                 <div id="div4">
@@ -139,13 +169,16 @@
                     5000tk
                 </div>
 
-
-                
-
-
-
-
     </section>
+
+    <section>
+        <div>
+            <h3 id="h3">Other Amount (Taka)</h3></div><hr>
+
+            <a class="button ex" href="">Donate Now</a>
+        </div>
+    </section>
+
     
     
 </body>
